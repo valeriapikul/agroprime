@@ -1,0 +1,1129 @@
+$orange: #d05d28;
+
+@media (max-width: 1368px) {
+
+    /* index  */
+    .slick-prev {
+        z-index: 100;
+        top: 106px;
+        left: -57px;
+    }
+
+    .slick-next {
+        z-index: 100;
+        top: 106px;
+        right: 120px;
+    }
+
+    .partners {
+
+        & .slick-prev {
+            z-index: 100;
+            top: 85px;
+            left: -55px;
+        }
+
+        & .slick-next {
+            z-index: 100;
+            top: 85px;
+            right: -50px;
+        }
+    }
+
+    /* index  */
+
+    // about-company
+
+    .our-employees {
+        & .slick-prev {
+            left: -55px;
+        }
+
+        & .slick-next {
+            right: -35px;
+        }
+    }
+
+    .our-certificates {
+        & .slick-prev {
+            left: -55px;
+        }
+
+        & .slick-next {
+            right: -35px;
+        }
+    }
+
+    // about-company
+
+}
+
+@media (max-width: 1280px) {
+
+    /* index  */
+    .banner-section {
+        margin-left: 90px;
+    }
+
+    .slick-prev {
+        top: 106px;
+        left: -45px;
+    }
+
+    .partners {
+
+        & .slick-dots {
+            width: 125px;
+        }
+
+        & .slick-prev {
+            left: -29px;
+        }
+
+        & .slick-next {
+            right: 30px;
+        }
+    }
+
+    /* index  */
+
+    // about-company
+
+    .our-employees {
+        & .slick-prev {
+            left: -38px;
+        }
+
+        & .slick-next {
+            right: -18px;
+        }
+    }
+
+    .our-certificates {
+        & .slick-prev {
+            left: -38px;
+        }
+
+        & .slick-next {
+            right: -18px;
+        }
+    }
+
+    // about-company
+
+}
+
+@media (max-width: 1024px) {
+
+    /* index  */
+    .header__top {
+        &-text {
+            max-width: 165px;
+        }
+
+        &-phone-number {
+            font-size: 17px;
+        }
+
+        &-info-left::before {
+            left: -33px;
+        }
+
+        &-info-right::before {
+            left: -27px;
+        }
+    }
+
+    .menu .menu__list-item+.menu__list-item {
+        margin-left: 15px;
+    }
+
+    .news {
+        &__inner {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+
+    .partners {
+        & .slick-dots {
+            left: 425px;
+        }
+
+        & .slick-prev {
+            left: -10px;
+        }
+    }
+
+    .rewievs {
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+
+    .divisions {
+        &__btn {
+            width: 230px;
+        }
+
+        &__info-box {
+            grid-template-columns: 245px 200px;
+        }
+    }
+
+    .footer {
+        &__form-input {
+            min-width: 345px;
+        }
+    }
+
+    /* index  */
+
+    // about-company
+
+    .about-us__slider-foto {
+        right: 38px;
+        top: 83px;
+        width: 300px;
+    }
+
+    .our-employees {
+        & .slick-prev {
+            top: -90px;
+            left: 125px;
+        }
+
+        & .slick-next {
+            top: -90px;
+            right: 155px;
+        }
+    }
+
+    .our-certificates {
+        & .slick-prev {
+            top: -90px;
+            left: 125px;
+        }
+
+        & .slick-next {
+            top: -90px;
+            right: 155px;
+        }
+    }
+
+    // about-company
+
+    // news 
+
+    .news__inner {
+        justify-content: space-evenly;
+    }
+
+    // news 
+
+    // territorial-divisions 
+
+    .territorial-divisions {
+        background-size: cover;
+
+        &__title {
+            margin-bottom: 50px;
+        }
+
+        &__inner {
+            align-items: center;
+
+            img {
+                width: 50%;
+                height: 50%;
+                margin-right: 15px;
+            }
+        }
+    }
+
+    // territorial-divisions 
+
+}
+
+@media (max-width: 992px) {
+
+    /* index  */
+    .benefits {
+        &__item {
+            max-width: 220px;
+        }
+    }
+
+    .header__top-info {
+        &-right::before {
+            left: -20px;
+        }
+
+        &-left::before {
+            left: -26px;
+        }
+    }
+
+    /* index  */
+
+    // about-company
+
+    .about-us__slider-info {
+        max-width: 600px;
+        padding-left: 40px;
+    }
+
+    // about-company
+
+    // article 
+
+    .article__images {
+        height: 100%;
+        background-size: cover;
+    }
+
+    // article 
+
+}
+
+@media (max-width: 768px) {
+    /* index  */
+
+    .header {
+
+        // menu burger 
+        &__inner {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .header__top {
+
+            &-info-left,
+            &-info-right,
+            &-phone {
+                display: none;
+            }
+        }
+
+        &__menu-btn {
+            display: block;
+        }
+
+        &__bottom ul,
+        &__search {
+            display: none;
+        }
+
+        &__bottom ul {
+            position: absolute;
+            top: 120px;
+            left: 0;
+            right: 0;
+            width: 100%;
+            background-color: $orange;
+            font-size: 20px;
+            line-height: 40px;
+            z-index: 999;
+
+        }
+
+        &__bottom li {
+            display: block;
+            text-align: center;
+            border-bottom: 1px solid gray;
+        }
+
+        .menu .menu__list-item+.menu__list-item {
+            margin-left: 0;
+        }
+
+        // menu burger 
+    }
+
+    .slick-prev {
+        left: -70px;
+    }
+
+    .slick-next {
+        right: 30px;
+    }
+
+    .benefits {
+        &__inner {
+            padding: 20px 50px;
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            margin-bottom: 20px;
+        }
+    }
+
+    .about-company {
+        background-position-x: -891px;
+
+        &__wrapper {
+            justify-content: center;
+        }
+    }
+
+    .divisions {
+        &__wrapper {
+            margin: 80px 0 640px;
+        }
+
+        &__info {
+            transform: translate(-50%, 0);
+            bottom: -623px;
+            width: inherit;
+
+            &-address {
+                box-shadow: 0px 5px 21px 0px rgba(78, 77, 77, 0.2);
+            }
+        }
+
+        &__btn {
+            box-shadow: 0px 5px 21px 0px rgba(78, 77, 77, 0.2);
+        }
+
+        .map__iframe {
+            width: 720px;
+        }
+    }
+
+    .partners {
+        & .slick-dots {
+            width: 200px;
+            left: 270px;
+        }
+    }
+
+    .rewievs {
+        &__inner {
+            display: inherit;
+        }
+
+        &__box,
+        &__scroll {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+    }
+
+    .footer {
+        &-top {
+            padding: 60px 0;
+            background-repeat: no-repeat;
+        }
+
+        &__form {
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            &-input {
+                margin-bottom: 20px;
+            }
+        }
+
+        &-bottom__info {
+            display: none;
+        }
+    }
+
+    /* index  */
+
+    // about-company
+
+    .about-us__slider {
+        &-inner {
+            padding-top: 40px;
+        }
+
+        &-info {
+            max-width: 365px;
+            padding-top: 40px;
+        }
+
+        &-foto {
+            right: 23px;
+            top: 145px;
+        }
+
+        & .slick-prev {
+            top: 660px;
+            left: 70%;
+        }
+
+        & .slick-next {
+            top: 660px;
+            right: 18%;
+        }
+    }
+
+    .our-employees {
+        &__inner {
+            margin-left: 40px;
+        }
+
+        & .slick-prev {
+            left: 0;
+        }
+
+        & .slick-next {
+            right: 75px;
+        }
+    }
+
+    .our-certificates {
+        &__inner {
+            margin-left: 40px;
+        }
+
+        & .slick-prev {
+            left: 0;
+        }
+
+        & .slick-next {
+            right: 75px;
+        }
+    }
+
+    // about-company
+
+    // article 
+
+    .article__images {
+        background-position-y: 125px;
+        background-size: cover;
+
+        &-inner {
+            flex-wrap: wrap;
+
+            img {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    // article 
+
+    // territorial-divisions 
+
+    .territorial-divisions {
+        &__title {
+            font-size: 40px;
+            line-height: 50px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        &__inner {
+            flex-wrap: wrap;
+
+            img {
+                width: 510px;
+                margin: 0 auto;
+            }
+        }
+
+        &__info {
+            width: 500px;
+            margin: 0 auto;
+
+            p {
+                text-align: center;
+            }
+
+            .header__top-text {
+                max-width: 500px;
+            }
+
+            .header__top-phone-number {
+                margin-left: 170px;
+            }
+        }
+    }
+
+    // territorial-divisions 
+
+}
+
+@media (max-width: 600px) {
+    /* index  */
+
+    .banner-section {
+        margin-left: 40px;
+    }
+
+    .benefits {
+        &__wrapper {
+            padding: 20px;
+        }
+
+        &__inner {
+            justify-content: center;
+            padding: 30px;
+            background-size: cover;
+            background-position: right;
+        }
+
+        &__item {
+            margin-bottom: 30px;
+        }
+    }
+
+    .about-company {
+        &__wrapper {
+            margin-top: 0;
+        }
+
+        &__inner {
+            padding: 0;
+        }
+
+        &__title {
+            margin-bottom: 0;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    .divisions {
+        &__btn {
+            width: 200px;
+        }
+
+        .map__iframe {
+            width: 560px;
+        }
+    }
+
+    .partners .slick-dots {
+        left: 190px;
+    }
+
+    .footer {
+        &-top {
+            padding: 24px 0;
+
+            img {
+                top: -15px;
+            }
+        }
+
+        &__title {
+            margin-bottom: 15px;
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        .header__top-phone {
+            display: none;
+        }
+    }
+
+    /* index  */
+
+    // about-company
+
+    .about-us__slider {
+        &-info {
+            max-width: 520px;
+        }
+
+        .slick-slide img {
+            display: none;
+        }
+
+        & .slick-prev {
+            top: 515px;
+        }
+
+        & .slick-next {
+            top: 515px;
+        }
+    }
+
+    .our-employees {
+        img {
+            margin: 0 auto;
+        }
+
+        &__inner {
+            margin-left: 0;
+        }
+
+        & .slick-prev {
+            top: 155px;
+            left: 60px;
+        }
+
+        & .slick-next {
+            top: 155px;
+        }
+    }
+
+    .our-certificates {
+        img {
+            margin: 0 auto;
+        }
+
+        &__inner {
+            margin-left: 0;
+        }
+
+        & .slick-prev {
+            top: 155px;
+            left: 60px;
+        }
+
+        & .slick-next {
+            top: 155px;
+        }
+    }
+
+    // about-company
+
+    // news 
+
+    .news__item,
+    .news__item.big-box {
+        width: 100%;
+    }
+
+    // news 
+
+}
+
+@media (max-width: 540px) {
+    /* index  */
+
+    .divisions .map__iframe {
+        width: 500px;
+    }
+
+    .partners {
+        &__inner {
+            margin-left: 100px;
+
+            .slick-dots {
+                width: 300px;
+                left: 0;
+            }
+
+            & .slick-prev {
+                left: -55px;
+            }
+        }
+    }
+
+    /* index  */
+
+    // article 
+
+    .article__title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    // article 
+
+}
+
+@media (max-width: 480px) {
+    /* index  */
+
+    .divisions .map__iframe {
+        width: 440px;
+    }
+
+    .partners__inner {
+        margin-left: 65px;
+    }
+
+    .header__logo img {
+        width: 170px;
+        height: 40px;
+    }
+
+    /* index  */
+
+    // about-company
+
+    .about-us__slider {
+        &-info {
+            padding: 15px;
+        }
+    }
+
+    .our-employees {
+        & .slick-prev {
+            left: 20px;
+        }
+
+        & .slick-next {
+            right: 35px;
+        }
+    }
+
+    .our-certificates {
+        & .slick-prev {
+            left: 20px;
+        }
+
+        & .slick-next {
+            right: 35px;
+        }
+    }
+
+    // about-company
+
+    // territorial-divisions 
+
+    .territorial-divisions {
+        &__inner {
+            img {
+                width: 100%;
+            }
+        }
+
+        &__info {
+            .header__top-phone-number {
+                margin-left: 145px;
+            }
+        }
+    }
+
+    // territorial-divisions 
+
+}
+
+@media (max-width: 420px) {
+    /* index  */
+
+    .banner-section {
+        &__title {
+            font-size: 50px;
+            line-height: 60px;
+        }
+
+        &__text-top {
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        &__text-bottom {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+
+    .about-company {
+        background-color: #eae9e9;
+    }
+
+    .divisions {
+        &__wrapper {
+            margin: 80px 0 865px;
+        }
+
+        &__title {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        .map__iframe {
+            width: 380px;
+        }
+
+        &__info {
+            bottom: -850px;
+
+            &-box {
+                display: inherit;
+                margin-left: 40px;
+            }
+        }
+
+        &__btn {
+            margin-bottom: 20px;
+        }
+    }
+
+    .partners {
+        &__inner {
+            margin-left: 20px;
+        }
+    }
+
+    .footer {
+        .header__logo {
+            display: none;
+        }
+
+        &-bottom__inner {
+            justify-content: space-evenly;
+        }
+    }
+
+    /* index  */
+
+    // about-company
+
+    .about-us__slider {
+        & .slick-prev {
+            top: 596px;
+            left: 72%;
+        }
+
+        & .slick-next {
+            top: 596px;
+            right: 7%;
+        }
+    }
+
+    .our-employees {
+        & .slick-prev {
+            left: 0;
+        }
+
+        & .slick-next {
+            right: 15px;
+        }
+    }
+
+    .our-certificates {
+        & .slick-prev {
+            left: 0;
+        }
+
+        & .slick-next {
+            right: 15px;
+        }
+    }
+
+    // about-company
+
+    // territorial-divisions 
+
+    .territorial-divisions {
+        &__title {
+            font-size: 35px;
+            line-height: 45px;
+        }
+
+        &__info {
+            .header__top-phone-number {
+                margin-left: 115px;
+            }
+        }
+    }
+
+    // territorial-divisions 
+
+}
+
+@media (max-width: 390px) {
+    /* index  */
+
+    .banner-section {
+        margin-left: 20px;
+
+        &__inner {
+            margin: 100px 0;
+        }
+    }
+
+    .divisions {
+        .map__iframe {
+            width: 350px;
+        }
+    }
+
+    .rewievs {
+        h6 {
+            font-size: 20px;
+            line-height: 22px;
+        }
+
+        &__scroll-item {
+            display: block;
+
+            &__info {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .footer {
+        &__title {
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+
+    /* index  */
+
+    // about-company
+
+    .about-us__slider {
+        & .slick-prev {
+            top: 619px;
+        }
+
+        & .slick-next {
+            top: 619px;
+        }
+    }
+
+    // about-company
+
+}
+
+@media (max-width: 370px) {
+    /* index  */
+
+    .banner-section {
+        margin-left: 20px;
+
+        &__title {
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+
+    .divisions {
+        &__title {
+            font-size: 30px;
+            line-height: 40px;
+        }
+
+        .map__iframe {
+            width: 340px;
+        }
+    }
+
+    /* index  */
+
+    // about-company
+
+    .about-us__slider {
+        & .slick-prev {
+            top: 645px;
+        }
+
+        & .slick-next {
+            top: 645px;
+        }
+    }
+
+    .our-employees__title,
+    .our-certificates__title,
+    .about-us__title,
+    .rewievs__title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    // about-company
+
+    // for-buyers 
+    .for-buyers__title {
+        font-size: 40px;
+        line-height: 50px
+    }
+
+    // for-buyers 
+
+    // for-sellers 
+    .for-sellers__title {
+        font-size: 40px;
+        line-height: 50px
+    }
+
+    // for-sellers 
+
+    // territorial-divisions 
+
+    .territorial-divisions {
+        &__info {
+            .header__top-phone-number {
+                margin-left: 85px;
+            }
+        }
+    }
+
+    // territorial-divisions 
+
+}
+
+@media (max-width: 350px) {
+    /* index  */
+
+    .divisions {
+        .map__iframe {
+            width: 310px;
+        }
+    }
+
+    .rewievs__box {
+        &-top {
+            display: block;
+            margin-bottom: 0;
+        }
+
+        &-name {
+            padding: 20px 0;
+        }
+    }
+
+    /* index  */
+
+}
+
+@media (max-width: 320px) {
+    /* index  */
+
+    .about-company__title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .divisions .map__iframe {
+        width: 290px;
+    }
+
+    .partners__inner {
+        margin-left: 0;
+    }
+
+    .footer__form-input {
+        min-width: 280px;
+    }
+
+    /* index  */
+
+    // territorial-divisions 
+
+    .territorial-divisions {
+        &__title {
+            font-size: 30px;
+            line-height: 40px;
+        }
+
+        &__info {
+            .header__top-phone-number {
+                margin-left: 65px;
+            }
+        }
+    }
+
+    // territorial-divisions 
+
+}
